@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+:root {
+  /* Backgrounds */
+  --bg-primary: #0f1010;
+  --bg-secondary: lch(9.02% 2.1 272);
+  --bg-tertiary: lch(11.21% 3.05 272.94);
+  --bg-quaternary: #151617;
+
+  /* Sidebar */
+  --sidebar-bg: lch(1.82% 0 272);
+
+  /* Borders */
+  --border-primary: lch(8.84% 1.38 272);
+  --border-secondary: lch(13.16% 1.38 272);
+  --border-tertiary: lch(15.32% 1.38 272);
+
+  /* Text */
+  --text-primary: #ffffff;
+  --text-secondary: #e2e3e5;
+  --text-tertiary: #939496;
+  --text-muted: #555557;
+
+  /* 2. Accent Color Linear uses only one primary accent. */
+  --accent: #5e69d1;
+  /* Related shades: */
+  --accent-light: #6e7efd;
+  --accent-hover: #6974e1;
+  --accent-soft: #727ce6;
+
+  /* Success */
+  --success: #37b24f;
+  --success-light: #3de261;
+  --success-bg: #0e1d11;
+
+  /* Warning */
+  --warning: #f0bf00;
+  --warning-light: #fecb00;
+  --warning-bg: #1f190d;
+
+  /*  Danger */
+  --danger: #f34e52;
+  --danger-light: #ff6363;
+  --danger-bg: #2c1113;
+
+  /* information cyan */
+  --info: #00ceff;
+  --info-light: #67d9ff;
+  --info-bg: #091d20;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-secondary);
+}
